@@ -5,6 +5,8 @@ Esto es (o será) un índice a algunos proyectos que me traigo entre teclas. Aca
 * **Notas sobre el Cambio Climático** - La legitimidad de ser escéptico respecto al alarmismo climático - [Repo](https://github.com/Eclectikus/notascc), [Web](https://eclectikus.github.io/notascc/)
   * **15M-Carta a los jóvenes contra el Cambio Climático** - Claves para afrontar el debate sobre el Cambio Climático de una manera racional - [Repo](https://github.com/Eclectikus/cartaestudiantesccc), [Web](https://eclectikus.github.io/cartaestudiantesccc/)
 
+---
+
 Saludos
 
 **Ec.**
