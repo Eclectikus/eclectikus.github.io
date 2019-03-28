@@ -57,14 +57,6 @@
 
         <img src="https://raw.githubusercontent.com/Eclectikus/eclectikus.github.io/master/figure/citynight.png" alt="Hola"
           width="300">
-
-        <h2>Estado de la página</h2>
-        
-        <a href="https://github.com/Eclectikus"><img alt="Estado"
-            src="https://img.shields.io/badge/-Pendiente-lightgrey.svg"></a>
-        <br />
-        <a href="https://creativecommons.org/licenses/by/4.0/deed.es"><img alt="Licencia"
-            src="https://img.shields.io/badge/-CC%20BY%204.0-blue.svg"></a>
         
         <h2>Repositorios</h2>
 
@@ -74,6 +66,10 @@
               Climático</a>
           </li>
         </ul>
+
+        {% if site.github.is_user_page %}
+        <a href="{{ site.github.owner_url }}" class="button"><small>Sígueme en</small> GitHub</a>
+        {% endif %}
 
         <h2>Sobre GitHub</h2>
         <ul>
@@ -90,9 +86,6 @@
           <li><a href="https://github.com/contact">Soporte</a></li>
           <li><a href="https://github.com/pages-themes/architect">Tema Architect</a></li>
         </ul>
-        {% if site.github.is_user_page %}
-        <a href="{{ site.github.owner_url }}" class="button"><small>Sígueme en</small> GitHub</a>
-        {% endif %}
       </aside>
     </div>
   </div>
